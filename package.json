@@ -1,0 +1,30 @@
+{
+  "name": "mvc-mern-restapi-with-6pack",
+  "version": "1.0.0",
+  "description": "learning the mern mvc, restapi with 6pack programmer youtube.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "6pack",
+    "programmer",
+    "mern",
+    "RESTAPI's",
+    "MVC"
+  ],
+  "author": "suraj choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
